@@ -1,4 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env nix-shell
+#!nix-shell -i python -p python3 python3Packages.requests
+
 from __future__ import print_function
 import argparse
 import os
